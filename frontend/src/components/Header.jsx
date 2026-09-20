@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuthStore } from '../store/useAuthStore';
+import { useAuthStore } from '../api/store/useAuthStore';
 
 export default function Header() {
   const { user, logout } = useAuthStore();
